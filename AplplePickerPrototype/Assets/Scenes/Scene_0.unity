@@ -783,6 +783,10 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2090829781544273100, guid: f4de65704aed7614ba29500abe635bbd, type: 3}
+      propertyPath: applePrefab
+      value: 
+      objectReference: {fileID: 3711306020834822445, guid: 3a67633c5e6c7c04bb7323b9639db744, type: 3}
+    - target: {fileID: 2090829781544273100, guid: f4de65704aed7614ba29500abe635bbd, type: 3}
       propertyPath: leftAdnRightEdge
       value: 23
       objectReference: {fileID: 0}
