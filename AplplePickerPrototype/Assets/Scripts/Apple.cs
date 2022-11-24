@@ -7,11 +7,6 @@ public class Apple : MonoBehaviour
     // Граница жизни яблока
     public static float bottomY = -20f;
 
-    void Start()
-    {
-        
-    }
-
     void Update()
     {
         if (transform.position.y < bottomY)

@@ -28,14 +28,8 @@ public class ApleeTree : MonoBehaviour
     void DropApple()
     {
         GameObject apple = Instantiate<GameObject>(applePrefab);
-        
-        //Quaternion target = Quaternion.Euler(-85.219f, -84.92f, 0);
-        // Dampen towards the target rotation
-        //apple.transform.rotation = Quaternion.Slerp(apple.transform.rotation, target, Time.deltaTime );
-        apple.transform.Rotate(-85.219f, -84.92f, 0, Space.Self);
-
-        apple.transform.position = transform.position;
-
+        apple.transform.Rotate(-85.219f, -64.92f, 0, Space.Self);
+        apple.transform.position = transform.position + new Vector3(0, -9, 0);
         Invoke("DropApple", secondBetweenAppleDrops);
     }
 
